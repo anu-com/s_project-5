@@ -1,0 +1,205 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #151b12;
+}
+
+#mtext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 9999;
+}
+
+#mtext h1 {
+    user-select: none;
+    white-space: nowrap;
+    font-family: "Voyage";
+    font-size: 10vw;
+    font-weight: 100;
+}
+
+#mtext h3 {
+    user-select: none;
+    white-space: nowrap;
+    font-family: "Voyage";
+    font-weight: 100;
+    font-size: 4vw;
+    line-height: 1;
+}
+
+#left {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 45%;
+}
+#nav {
+    width: 100%;
+    padding: 50px 60px;
+    align-items: center;
+    display: flex;
+    gap: 100px;
+    color: #fff;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-size: 14px;
+}
+
+#nav h3 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+#centerimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1532703321856-d512f3613d54?q=80&w=1577&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#centerimg #text {
+    display: flex;
+    position: absolute;
+    bottom: -90px;
+    width: 100%;
+    color: #fff;
+   
+}
+
+#text #parts {
+    width: 30%;
+   
+
+}
+
+#parts h5 {
+    margin-bottom: 20px;
+}
+
+#text #para {
+    width: 70%;
+}
+#para p {
+    line-height: 20px;
+    font-size: 12px;
+}
+#scroll {
+    position: absolute;
+    display: flex;
+    bottom: -10px;
+    left: 10%;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+    gap: 20px;
+    align-items: center;
+}
+#scroll #line {
+    width: 150px;
+    height: 2px;
+    background-color: #fff;
+}
+
+#scroll h4 {
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+}
+
+#center {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1702906220516-11f24e4423c2?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+#center #card {
+    position: absolute;
+    display: flex;
+    right: -5%;
+    bottom: 10%;
+    width: 260px;
+    height: 170px;
+    /* background-color: red; */
+}
+
+#cicons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    height: 100%;
+    background-color: #ffffff2c;
+    color: #fff;
+}
+
+#cimage {
+    width: 80%;
+    height: 100%;
+    z-index: 9999;
+    background-image: url(https://images.pexels.com/photos/45853/grey-crowned-crane-bird-crane-animal-45853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+}
+
+#right {
+    display: flex;
+    height: 100%;
+    width: 5%;
+    color: white;
+}
+
+#relem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+    height: 60%;
+    width: 100%;
+}
+
+#relem #rlinks {
+    display: flex;
+    gap: 50px;
+    transform:translateY(-150px) rotate(90deg);
+    padding-left: 20px;
+}
+
+#rlinks a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
